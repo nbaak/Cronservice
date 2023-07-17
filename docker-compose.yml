@@ -3,6 +3,7 @@ version: '3.7'
 services:
   cron:
     build: .
+    image: k3nny0r/crontab
     volumes:
       - type: bind
         source: ./crontab.txt
