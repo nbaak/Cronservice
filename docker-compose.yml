@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  cron:
+    build: .
+    volumes:
+      - type: bind
+        source: ./crontab.txt
+        target: /app/crontab.txt

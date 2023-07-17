@@ -1,0 +1,3 @@
+# Crontab Tutorial
+# https://crontab.guru/
+* * * * * curl -k <yourdomain>
